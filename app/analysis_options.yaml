@@ -9,3 +9,7 @@ linter:
     - prefer_final_in_for_each
     - prefer_final_locals
     - prefer_relative_imports
+
+formatter:
+  page_width: 80
+  trailing_commas: automate

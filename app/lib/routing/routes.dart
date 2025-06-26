@@ -5,6 +5,7 @@
 abstract final class Routes {
   static const home = '/';
   static const login = '/login';
+  // dump examples TODO: to be cleared
   static const search = '/$searchRelative';
   static const searchRelative = 'search';
   static const results = '/$resultsRelative';

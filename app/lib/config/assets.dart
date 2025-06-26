@@ -3,6 +3,12 @@
 // found in the LICENSE file.
 
 abstract final class Assets {
-  static const activities = 'assets/activities.json';
-  static const destinations = 'assets/destinations.json';
+  // json files
+  static const destinations = 'assets/json/destinations.json';
+  // images files
+  static const userPicture = 'assets/images/example.png';
+  // icons files
+  static const pizzaIcon = 'assets/icons/example.svg';
+  // lottie files
+  static const onboardingAnimation = 'assets/lottie/example.json';
 }

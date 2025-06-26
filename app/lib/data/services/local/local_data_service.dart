@@ -7,7 +7,6 @@ import 'dart:convert';
 import 'package:flutter/services.dart';
 
 import '../../../config/assets.dart';
-import '../../../domain/models/activity/activity.dart';
 import '../../../domain/models/continent/continent.dart';
 import '../../../domain/models/destination/destination.dart';
 import '../../../domain/models/user/user.dart';
@@ -44,11 +43,6 @@ class LocalDataService {
         imageUrl: 'https://rstr.in/google/tripedia/z6vy6HeRyvZ',
       ),
     ];
-  }
-
-  Future<List<Activity>> getActivities() async {
-    final json = await _loadStringAsset(Assets.activities);
-    return json.map<Activity>(Activity.fromJson).toList();
   }
 
   Future<List<Destination>> getDestinations() async {
